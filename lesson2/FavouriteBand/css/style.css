@@ -48,10 +48,16 @@ a {
 
 
 #container {
-	padding: 15px; /* add a bit of padding around all the content inside our container */
+	padding: 35px; /* add a bit of padding around all the content inside our container */
 	background: #b8270b; /* set the container's background to black */
+	border:1px solid white;
 	width: 420px;
-
+	opacity:0.6;
+  	filter:alpha(opacity=60); /* For IE8 and earlier */
 	-webkit-border-bottom-right-radius: 25px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
 	border-bottom-right-radius: 25px; 
 }
+#container:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier */
