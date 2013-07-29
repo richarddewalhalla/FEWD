@@ -10,6 +10,24 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+	<!-- map -->
+				<script
+				src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+				</script>
+
+				<script>
+				function initialize()
+				{
+				var mapProp = {
+				  center:new google.maps.LatLng(51.508742,-0.120850),
+				  zoom:5,
+				  mapTypeId:google.maps.MapTypeId.ROADMAP
+				  };
+				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				}
+
+				google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 	</head>
 	<body>
 		<div id="container">
@@ -23,7 +41,8 @@
 			<p>The band is the musical outlet for singer/songwriter Glenn Danzig, preceded by the horror punk bands the Misfits and Samhain.
 			</p>
 			
-			<p>They play in a bluesy heavy metal style influenced by the early sound of Black Sabbath. Find out more about them on <a href="http://danzig-verotik.com/" target="_blank">they're homepage</a>. Or check out my favourite song <a href="http://www.youtube.com/watch?v=vgSn0SbQJQI" target="_blank"> "mother"</a>. 
+			<p>They play in a bluesy heavy metal style influenced by the early sound of Black Sabbath. Find out more about them on <a href="http://danzig-verotik.com/" target="_blank">they're homepage</a>. Or check out my favourite song <a href="http://www.youtube.com/watch?v=vgSn0SbQJQI" target="_blank"> "mother"</a>
+				<iframe width="420" height="315" src="//www.youtube.com/embed/vgSn0SbQJQI" frameborder="0" allowfullscreen></iframe>. 
 			</p>
 
 			<a href="https://twitter.com/DANZlG" target="_blank">
@@ -37,6 +56,8 @@
 			<a href="http://www.flickr.com/search/?q=glenn%20danzig" target="_blank">
 				<img src="images/social-flickr.png" alt="flickr">
 			</a>
+<!-- map -->
+			<div id="googleMap" style="width:500px;height:380px;"></div>
 
 		<!-- END HERE --> 
 		</div><!-- #container --> 
