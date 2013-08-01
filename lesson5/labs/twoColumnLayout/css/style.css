@@ -11,11 +11,6 @@ Developer @GA in NYC
 /*******************************************/
 
 /* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
 
 /* Clear fix hack */
 .clearfix:after {
@@ -58,23 +53,40 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+body {
 	width: 960px;
 	margin: auto;
 }
 
 header {
-
+     background-color: #89CEDE;
+     height: 138px;
 }
 
-footer {
+/*to remove the spacing at the top*/
+header h1 {
+     margin-top: 0px;
+     color: white;
+     font-size: 48px;
+     /*to aline somthing in the center of the container set the line hight to the same px as the box size*/
+     line-height: 138px;
 
+}
+footer {
+     background-color: #89CEDE;
+     height: 138px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
+#main {
+     background-color: blue;
+     width: 640px;
+}
 
-
+#sidebar {
+     background-color: red;
+}
 
 

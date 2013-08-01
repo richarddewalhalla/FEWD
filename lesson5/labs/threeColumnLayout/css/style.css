@@ -64,10 +64,12 @@ body {
 }
 
 header {
+     background-color: red;
 
 }
 
 footer {
+     background-color: green;
 
 }
 
@@ -75,6 +77,23 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+#sidebar-left {
+     background-color: blue;
+     width: 320px;
+     height: 400px;
+     float: left;
+}
 
+#content {
+     background-color: yellow;
+     width: 320px;
+     height: 400px;
+     float: left;
+}
 
-
+#sidebar-right {
+     background-color: grey;
+     width: 320px;
+     height: 400px;
+     float: left;
+}
