@@ -9,15 +9,14 @@ body {
 	margin: 0px;
 }
 
-
 a {
 	text-decoration:none;
 	color:#1FA2E1;
 }
 
-	a:hover {
-		text-decoration:underline;
-	}
+a:hover {
+	text-decoration:underline;
+}
 
 p {
 	margin:0 0 15px 0; 
@@ -28,9 +27,9 @@ h1 {
 	background: url('../images/logo.png') no-repeat;
 	margin-top: 32px;
 	float: left; 
-     text-indent: 100%;
-     white-space: nowrap;
-     overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 	h1 a {
 		width: 291px;
@@ -75,15 +74,12 @@ nav ul li a {
 	height:49px;
 	color:#ccc;
 	padding:36px 18px 0 18px;
-	font-size:17px; /* makes the nav text a bit larger than the default body font-size */
+	font-size:17px; 
 	background-image: none;
 }
 
 	nav ul li a:hover {
 		text-decoration:none;
-		/*background:url(../images/bg_nav_rollover.png) repeat-x;*/
-
-		/* Use CSS background gradient instead of image. */
 		background-image: -ms-linear-gradient(top, rgba(150, 221, 252, 0.1) 0%, #000000 100%);
 		background-image: -moz-linear-gradient(top, rgba(150, 221, 252, 0.1) 0%, #000000 100%);
 		background-image: -o-linear-gradient(top, rgba(150, 221, 252, 0.1) 0%, #000000 100%);
@@ -173,7 +169,7 @@ nav ul li a {
 		}
 
 	#home-boxes .last{ 
-		margin-right:0; /* removes the right margin so that the image is both flush right, and so that it doesn't get pushed down to the next line */
+		margin-right:0;
 	}
 
 	#home-boxes .home-box h2 {
@@ -183,7 +179,7 @@ nav ul li a {
 
 /*blurb*/
 #blurb {
-    border-color:#BDBDBD #FFFFFF #FFFFFF #BDBDBD; /* adds a beveled border: grey on top/left, white on bottom/right */
+    border-color:#BDBDBD #FFFFFF #FFFFFF #BDBDBD;
     border-style:solid;
     border-width:1px;
 
@@ -271,7 +267,7 @@ footer {
 
 /*misc*/
 .photobanner {
-	line-height:0px; /* removes the blank space below the image */
+	line-height:0px; 
 }
 
 .imageshadow {

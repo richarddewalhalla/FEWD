@@ -50,6 +50,13 @@ nav a:hover {
 	height:0;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+     .classForaMediumScreen {
+          background: #cc0000;
+          width: 30%;
+          float: right;
+     }
+}
 /* Tablet Layout: 768px.
  * Gutters: 24px.
  * Outer margins: 28px.
