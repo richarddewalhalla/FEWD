@@ -9,13 +9,13 @@
  * Question 1
  * Create an array with the elements 'New York' 'London' 'San Francisco'
  */
-var q1 = 'REPLACE_ME'
+var q1 = ['New York', 'London','San Francisco' ];
 
 /**
  * Question 2
  * Create an array with the elements 'New York' 'London' 'San Francisco' and extract the first element
  */
-var q2 = 'REPLACE_ME'
+var q2 = q1[0];
 
 /**
  * Question 3

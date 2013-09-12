@@ -1,0 +1,16 @@
+
+/*general*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: black;
+	line-height: 1.1;
+	margin: 0px;
+}
+
+
+#container {
+	margin:0 auto;
+	width:960px;
+}

@@ -9,3 +9,13 @@
  *    be typed in it. 
  *    Hint, remeber what event.preventDefault() does? 
  */
+
+$('#noVowels').keypress(function(event){
+	event.preventDefault();
+
+	var key = event.keyCode;
+
+	
+	$('#justPressed').text(event.keyCode);
+
+});

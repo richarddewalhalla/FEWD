@@ -5,3 +5,13 @@
  * 4. Use the .append() method to update the h2 tag to say "Divs don't belong in the head".
  * 5. Print the contents of the h3 and h2 tags in the console.
  */
+
+
+$(document).ready(function(){
+var name = prompt('what is your name?');
+
+$('h1').text('Hello' +  name);
+
+console.log($'h2').text("Divs don't belong in the head"));
+
+});
