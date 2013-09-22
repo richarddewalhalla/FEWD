@@ -6,3 +6,8 @@ Hints:
 3.) Learn how to select specific inputs using eq selectors: http://api.jquery.com/eq-selector/
 
 */
+
+$('#addition input:nth-child(0)').change(function(){
+	console.log($)
+
+});

@@ -1,26 +1,141 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="richard,is,the,best">
-    <meta name="description" content="Mothafucka">
-    <title>Richard's final</title>
-    <link rel="stylesheet" media="all" href="css/reset.css">
-    <link rel="stylesheet" media="all" href="css/style.css">
-  </head>
-  <body>
-    <div id="wrapper">
-      <div id="container">
+<!DOCTYPE html>
 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+    <title>Richard de Waal</title>
+    <link href="css/reset.css" media="all" rel="stylesheet" />
+    <link href="css/style.css" media="all" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="wrapper">
         <header>
-<p>Richard</p>
+            <h1>Richard de Waal</h1>
+
+            <nav>
+                <ul>
+                    <li class="Home">
+                        <a data-target="home" href="#">Home</a>
+                    </li>
+
+                    <li class="About">
+                        <a data-target="about" href="#">About</a>
+                    </li>
+
+                    <li class="Graphics">
+                        <a data-target="graphics" href="#">Graphic Design</a>
+                    </li>
+
+                    <li class="Concept">
+                        <a data-target="concept" href="#">Concept Art</a>
+                    </li>
+
+                    <li class="Contact">
+                        <a data-target="contactinfo" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
+        <div class="clear"></div>
 
-      <footer>
-  
-      </footer>
-      </div>
-    </div>
-  </body>
+        <div id="container">
+            <div class="panel portfolio home active">
+                <h2>Hallo, Ik ben Richard en ik ben de beste<br />
+                Dit is men portfolio, kijk er naar!!</h2>
+            </div>
+
+            <div class="panel portfolio concept">
+                <div class="piece"><img alt="Bug person concept" src=
+                "images/bug-person.jpg" /></div>
+
+                <h3>Concept art</h3>
+
+                <p>A concept art piece I made after watching a couple of
+                B-movies.</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Photoshop</dd>
+                </dl>
+
+                <div class="piece"><img alt=
+                "Ornate heraldic emblem style design" src=
+                "images/batman-concept.jpg" /></div>
+
+                <h3>Concept art</h3>
+
+                <p>A concept for a new batman design that I made in
+                Illustrator</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Illustrator</dd>
+                </dl>
+            </div>
+
+            <div class="panel portfolio graphics">
+                <div class="piece"><img alt="Vector zombie illustion" src=
+                "images/zombie-design.jpg" /></div>
+
+                <h3>Vector Illustration</h3>
+
+                <p>A Vector imgae I made in Illustrator, because I like zombies
+                and was inspired to make a cool design,</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Illustrator</dd>
+                </dl>
+            </div>
+
+            <div class="panel portfolio contactinfo contact">
+                <h2>For Commishions feel free to contact me!</h2>
+
+                <form action="" method="post">
+                    <fieldset>
+                        <div>
+                            <label for="name">Name:</label> <input id="name"
+                            type="text" /> <label for="email">Email:</label>
+                            <input id="email" type="text" /> <label for=
+                            "website">Website:</label> <input id="website"
+                            type="text" />
+                        </div>
+
+                        <div>
+                            <label for="message">Message:</label> 
+                            <textarea cols="" id="message" rows="">
+</textarea>
+                        </div>
+                    </fieldset>
+
+                    <p><input class="submit" type="submit" value=
+                    "Send Message" /></p>
+                </form>
+            </div>
+        </div>
+    </div><script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> <script>
+<![CDATA[
+    window.jQuery || document.write('<script src="js/jquery-1.8.0.min.js"><\/script>')
+    ]]>
+    </script> <script src="js/scripts.js"></script>
+</body>
 </html>

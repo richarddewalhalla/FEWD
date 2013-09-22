@@ -22,6 +22,29 @@ var total = 0;
 $(function(){
 
 	//$(box to be updated).click(function call);
-
+	$('#a10').click(a10);
+	$('#a20').click(a20);
+	$('#a30').click(a30);
 
 });
+
+function a10() {
+	total = total + 10;
+	$('#out').text(total);
+
+}
+
+function a20() {
+	total = total + 20;
+	$('#out').text(total);
+
+}
+
+function a30() {
+	total = total + 30;
+	$('#out').text(total);
+
+}
+
+
+

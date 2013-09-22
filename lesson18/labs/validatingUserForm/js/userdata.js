@@ -13,5 +13,18 @@
  */
 
 $(document).ready(function(){
-		
+		$('input[type="submit"]').click(function(event){
+			event.preventDefault();
+
+			var name = $('#user_name').val();
+			var age = $('#user_age').val();
+			var phone = $('#user_ph').val();
+			var email = $('#user_email').val();
+
+			if (name.length < 3)
+				$('#user_name_error').show();
+			
+
+		})
+
 });
