@@ -43,8 +43,10 @@
 
         <div id="container">
             <div class="panel portfolio home active">
-                <h2>Hallo, Ik ben Richard en ik ben de beste<br />
-                Dit is men portfolio, kijk er naar!!</h2>
+                <h2>Hi there, my name is Richard de Waal and I'm a aspiring Graphic Designer/Concept Artist. This is my online portfolio, have a look around and let me know what you think.
+                    <p>Enjoy!</p></h2>
+
+                <div><img alt="Richard de Waal" src="images/me.jpg" /></div>
             </div>
 
             <div class="panel portfolio concept">
@@ -67,7 +69,7 @@
                 </dl>
 
                 <div class="piece"><img alt=
-                "Ornate heraldic emblem style design" src=
+                "batman suit concept" src=
                 "images/batman-concept.jpg" /></div>
 
                 <h3>Concept art</h3>
@@ -106,29 +108,50 @@
                 </dl>
             </div>
 
+                        <div class="panel portfolio graphics">
+                <div class="piece"><img alt="The Joker on the run" src=
+                "images/joker-escape.jpg" /></div>
+
+                <h3>Photoshop Illustration</h3>
+
+                <p>This is a illustration I made of the Joker escaping from arkham asylum once again.</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Photoshop</dd>
+                </dl>
+            </div>
+
             <div class="panel portfolio contactinfo contact">
                 <h2>For Commishions feel free to contact me!</h2>
 
-                <form action="" method="post">
-                    <fieldset>
-                        <div>
-                            <label for="name">Name:</label> <input id="name"
-                            type="text" /> <label for="email">Email:</label>
-                            <input id="email" type="text" /> <label for=
-                            "website">Website:</label> <input id="website"
-                            type="text" />
-                        </div>
-
-                        <div>
-                            <label for="message">Message:</label> 
-                            <textarea cols="" id="message" rows="">
-</textarea>
-                        </div>
-                    </fieldset>
-
-                    <p><input class="submit" type="submit" value=
-                    "Send Message" /></p>
-                </form>
+ <form id="contact-form" name="contact-form" method="post" action="form-processing.php">
+    <p>
+      <label>Name:<br />
+        <input name="Name" type="text" id="FName" size="30" />
+      </label>
+    </p>
+    <p>
+      <label>Email:<br />
+        <input name="Email" type="text" id="Email" size="48" />
+      </label>
+    </p>
+    <p>
+      <label>Message:<br />
+        <textarea name="Message" id="Message" cols="50" rows="7"></textarea>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="button" type="submit" class="submit-button" id="button" value="Send" />
+      </label>
+    </p>
+  </form> 
             </div>
         </div>
     </div><script src=

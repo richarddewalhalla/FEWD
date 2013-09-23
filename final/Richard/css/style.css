@@ -20,12 +20,17 @@ body {
 	}
 	
 	h2 {
-		font: 27px/40px Helvetica, Arial, Sans-Serif; letter-spacing: 1px; text-align: center;
-		text-shadow: 0px 2px 3px #546a7e; margin: 0 0 40px 0;
+		font: 27px/40px Helvetica, Arial, Sans-Serif; 
+		letter-spacing: 1px; 
+		/*text-align: center;*/
+		text-shadow: 0px 2px 3px #546a7e; 
+		margin: 0 0 40px 0;
 	}
 	
 	h3 {
-		width: 338px; height: 46px; padding: 11px 0 0 22px;
+		width: 338px; 
+		height: 46px; 
+		padding: 11px 0 0 22px;
 		background: url(../images/header.png) no-repeat;	
 		font: 27px/24px Helvetica, Arial, Sans-Serif; letter-spacing: 1px;
 	}
@@ -134,22 +139,22 @@ li a {
 	height: 52px;
 	text-indent: -99999px;
 	margin-top: 100px;
-	margin-left: 40px;
+	margin-left: 31px;
 	margin-right: 7px;
 }
 
 /*normal state*/
-.Home a {background-position: 0px -64px;}
-.About a {background-position: -62px -64px;}
-.Graphics a {background-position: -128px -64px;}
-.Concept a {background-position: -190px -64px;}
-.Contact a {background-position: -254px -64px;}
+.Home a {background-position: 0px -66px;}
+.About a {background-position: -64px -66px;}
+.Graphics a {background-position: -128px -66px;}
+.Concept a {background-position: -190px -66px;}
+.Contact a {background-position: -254px -66px;}
 
 /*hover state*/
-.Home a:hover {background-position: 0px 0px;}
-.About a:hover {background-position: -62px 0px;}
-.Graphics a:hover {background-position: -128px 0px;}
-.Concept a:hover {background-position: -190px 0px;}
-.Contact a:hover {background-position: -254px 0px;}
+.Home a:hover {background-position: 0px -1px;}
+.About a:hover {background-position: -64px -1px;}
+.Graphics a:hover {background-position: -128px -1px;}
+.Concept a:hover {background-position: -190px -1px;}
+.Contact a:hover {background-position: -254px -1px;}
 
 
