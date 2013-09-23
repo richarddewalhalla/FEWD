@@ -147,14 +147,14 @@ li a {
 .Home a {background-position: 0px -66px;}
 .About a {background-position: -64px -66px;}
 .Graphics a {background-position: -128px -66px;}
-.Concept a {background-position: -190px -66px;}
-.Contact a {background-position: -254px -66px;}
+.Concept a {background-position: -192px -66px;}
+.Contact a {background-position: -256px -66px;}
 
 /*hover state*/
 .Home a:hover {background-position: 0px -1px;}
 .About a:hover {background-position: -64px -1px;}
 .Graphics a:hover {background-position: -128px -1px;}
-.Concept a:hover {background-position: -190px -1px;}
-.Contact a:hover {background-position: -254px -1px;}
+.Concept a:hover {background-position: -192px -1px;}
+.Contact a:hover {background-position: -256px -1px;}
 
 
